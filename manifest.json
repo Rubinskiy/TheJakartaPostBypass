@@ -1,0 +1,31 @@
+{
+    "name": "The Jakarta Post Premium Article Bypass",
+    "version": "0.5.1",
+    "description": "Bypasses Premium Articles on The Jakarta Post",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://www.thejakartapost.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "logo.jpg",
+            "48": "logo.jpg",
+            "128": "logo.jpg"
+        }
+    },
+    "icons": {
+        "16": "logo.jpg",
+        "48": "logo.jpg",
+        "128": "logo.jpg"
+    },
+    "content_scripts": [
+        {
+          "matches": ["*://*.thejakartapost.com/*"],
+          "js": ["content.js"]
+        }
+      ]
+}
