@@ -1,7 +1,7 @@
 ## Premium Article Bypass for thejakartapost.com
 Are you an avid reader like me for a news website like <a href="thejakartapost.com">thejakartapost.com</a> but just can't stand their paywall on premium quality articles?
 
-This unpackaged source code for a chrome extension will help bypass the paywall on premium articles so you can **read them for free**. 
+This unpacked source code for a chrome extension will help bypass the paywall on premium articles so you can **read them for free**. 
 
 ## How they work
 I was expecting to find an existing Github Repo of a bypass for The Jakarta Post premium articles but unfortunately, I could not find any. So I thought of making one myself. Turns out it was pretty simple too.
