@@ -16,6 +16,18 @@ if (targetNode) {
             paywallNode.remove();
           }
 
+          document.styleSheets[0].insertRule(`
+            .tjp-wrapper.active::before {
+              height: 0px !important;
+            }
+          `, 0);
+
+          const buttonNode = document.querySelector('.tjp-premium');
+          if (buttonNode) {
+            buttonNode.innerText = "FREE";
+          }
+          buttonNode.style.backgroundColor = "#2295da";
+
           mutation.target.style.overflow = 'scroll';
           showNotification("Paywall Removed", "You can now read this article for free!");
         }

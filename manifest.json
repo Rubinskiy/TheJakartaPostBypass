@@ -1,6 +1,6 @@
 {
     "name": "The Jakarta Post Premium Article Bypass",
-    "version": "0.5.1",
+    "version": "0.6.1",
     "description": "Bypasses Premium Articles on The Jakarta Post",
     "manifest_version": 3,
     "permissions": [
